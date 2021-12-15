@@ -149,7 +149,7 @@
                     <span>Lorem, ipsum dolor.</span>
                 </div>
             </div>
-            <button>View all corses</button>
+            <button>View all corses <i class="fas fa-long-arrow-alt-right"></i> </button>
         </section>
         <section class="blog">
              <img class="bg-1" src="../assets/img/maxcoach-shape-14.png" alt="">
@@ -208,20 +208,20 @@
                     </div>
                 </div>
                 <div class="box-event">
-                    <img src="../assets/img/artist-event-02-250x300.jpg" alt="">
                     <div class="testo">
                         <h5>lorem</h5>
                         <h6>Lorem ipsum dolor sit.</h6>
                          <span>lorem</span>
                     </div>
+                    <img src="../assets/img/artist-event-02-250x300.jpg" alt="">
                 </div>
                 <div class="box-event">
-                    <img src="../assets/img/artist-event-01-250x300.jpg" alt="">
                     <div class="testo">
                         <h5>lorem</h5>
                         <h6>Lorem ipsum dolor sit.</h6>
                          <span>lorem</span>
                     </div>
+                    <img src="../assets/img/artist-event-01-250x300.jpg" alt="">
                 </div>
             </div>
             
@@ -234,6 +234,7 @@
 
 
 export default {
+    name: 'Main',
     components:{
         
     }
@@ -314,6 +315,10 @@ export default {
     .title-mentor, .paragrafo{
         width: 27%;
     }
+    button{
+        color: #F07030;
+        background-color: #FDF0EA;
+    }
 }
 .video{
     position: relative;
@@ -339,16 +344,7 @@ export default {
         top: 25px;
         left: 388px;
     }
-    .circle{
-        z-index: 4;
-        height: 60px;
-        width: 60px;
-        border: 8px solid brown;
-        border-radius: 50%;
-        position: absolute;
-        top: 110px;
-        right: 370px;
-    }
+    
     .video-poster{
         width: 40%;
         z-index: 3;
@@ -410,7 +406,15 @@ export default {
                 width: 100%;
                 height: 200px;
             }
+            p{
+                font-weight: 600;
+                color: #F07030;
+            }
         }
+    }
+    button{
+        color: #F07030;
+        background-color: #FDF0EA;
     }
 }
 .blog{
@@ -423,11 +427,6 @@ export default {
     }
     .circle{
         z-index: 4;
-        height: 60px;
-        width: 60px;
-        border: 8px solid brown;
-        border-radius: 50%;
-        position: absolute;
         top: 110px;
         left: 200px;
     }
@@ -466,6 +465,7 @@ export default {
 .events{
     position: relative;
     overflow: hidden;
+    padding: 50px 0px;
     .bg-1{
         width: 25%;
         position: absolute;
@@ -485,7 +485,7 @@ export default {
         @include center();
         flex-wrap: wrap;
         .box-event{
-            @include center(sinistra);
+            @include center(between);
             width: 30%;
             height: 200px;
             margin: 20px;
@@ -495,7 +495,7 @@ export default {
                 height: 200px;
             }
             .testo{
-                margin-left: 20px;
+                margin: 0px 20px;
                 h6{
                     margin: 15px 0px;
                 }

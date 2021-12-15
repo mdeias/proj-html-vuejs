@@ -28,3 +28,23 @@ section{
 .margin-b{
     margin-bottom: 40px;
 }
+
+button{
+    color: white;
+    padding: 8px 25px;
+    background-color: #F07030;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+}
+
+.circle{
+    z-index: 4;
+    height: 60px;
+    width: 60px;
+    border: 8px solid #EBC5AB;
+    border-radius: 50%;
+    position: absolute;
+    top: 110px;
+    right: 370px;
+}

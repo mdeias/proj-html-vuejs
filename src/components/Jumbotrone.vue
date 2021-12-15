@@ -21,7 +21,7 @@
 
 <script>
 export default {
-
+    name: 'Jumbotrone'
 }
 </script>
 
@@ -48,7 +48,7 @@ export default {
     }
     .paint{
         z-index: 4;
-        width: 11%;
+        width: 12%;
         top: 58px;
         left: 205px;
     }
@@ -78,7 +78,7 @@ export default {
         left: 25px;
     }
     .boy{
-        width: 13%;
+        width: 14%;
         bottom: 35px;
         right: 150px;
     }
@@ -97,6 +97,11 @@ export default {
         flex-direction: column;
         width: 50%;
         text-align: center;
+        button{
+            margin: 15px;
+            padding: 15px 35px;
+            
+        }
        
     }
 }
