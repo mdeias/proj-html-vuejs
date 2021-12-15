@@ -1,0 +1,26 @@
+.contenitore-bg{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.contenitore-md{
+    width: 65%;
+    margin: 0 auto;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        img{
+            height: 80px;
+            width: 170px;
+        }
+    }
+}
