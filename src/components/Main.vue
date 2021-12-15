@@ -15,7 +15,7 @@
                     <h5>lorem</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <div class="box-help">
+                <div class="box-help margin">
                     <img src="../assets/img/artist-box-image-02.png" alt="">
                     <h5>lorem</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -25,7 +25,7 @@
                     <h5>lorem</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <div class="box-help">
+                <div class="box-help margin">
                     <img src="../assets/img/artist-box-image-04.png" alt="">
                     <h5>lorem</h5>
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -45,10 +45,13 @@
             </div>
             <div class="paragrafo">
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod officiis, dolores ut, ipsum ratione, quia nobis hic dignissimos possimus dolor enim aut sequi animi. Iste, pariatur totam. Optio, recusandae! Et praesentium cumque labore qui quibusdam laborum molestias odio quis nemo. Placeat, est doloremque dolor ullam amet distinctio veritatis error nostrum vitae accusamus in perspiciatis mollitia eveniet dolorem unde hic similique quisquam ducimus alias earum dolorum provident blanditiis omnis? Distinctio, quia quibusdam cumque officiis iusto obcaecati, inventore praesentium temporibus at, quisquam rem doloremque veniam suscipit accusamus iure quis magni.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod officiis, dolores ut, ipsum ratione, quia nobis hic dignissimos possimus dolor enim aut sequi animi. Iste, pariatur totam. Optio, recusandae! Et praesentium cumque labore qui quibusdam laborum molestias odio quis nemo. Placeat, est doloremque dolor ullam amet distinctio v
                 </p>
-                <button>
-                    click
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod officiis, dolores ut, ipsum ratione, quia nobis hic 
+                </p>
+                <button class="btn-mentor">
+                    Get started tooday
                 </button>
             </div>
 
@@ -72,12 +75,18 @@
 
             <div class="cover-box">
                 <div class="box-reviews">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, id?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet aliquid consectetur harum nisi incidunt ab delectus molestiae nesciunt aspernatur.</p>
                     <img src="../assets/img/artist-testimonial-avatar-01.jpg" alt="">
                 </div>
                 <div class="box-reviews">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, id?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet aliquid consectetur harum nisi incidunt ab delectus molestiae nesciunt aspernatur.</p>
                     <img src="../assets/img/artist-testimonial-avatar-02.jpg" alt="">
                 </div>
                 <div class="box-reviews">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, id?</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, eveniet aliquid consectetur harum nisi incidunt ab delectus molestiae nesciunt aspernatur.</p>
                     <img src="../assets/img/artist-testimonial-avatar-03.jpg" alt="">
                 </div>
             </div>
@@ -93,30 +102,54 @@
             <div class="cover-card">
                 <div class="card">
                     <img src="../assets/img/artist-course-01-480x480.jpg" alt="">
+                    <p>$20.00</p>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
                 <div class="card">
                     <img src="../assets/img/artist-course-02-480x480.jpg" alt="">
+                    <p>$20.00</p>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
                 <div class="card">
                     <img src="../assets/img/artist-course-03-480x480.jpg" alt="">
+                    <p>$20.00</p>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
                 <div class="card">
                     <img src="../assets/img/artist-course-04-480x480.jpg" alt="">
+                    <p>$20.00</p>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
                 <div class="card">
                     <img src="../assets/img/artist-course-05-480x480.jpg" alt="">
+                    <p>$20.00</p>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
                 <div class="card">
                     <img src="../assets/img/artist-course-06-480x480.jpg" alt="">
+                    <p>$20.00</p>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
                 <div class="card">
                     <img src="../assets/img/artist-course-07-480x480.jpg" alt="">
+                    <p>$20.00</p>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
                 <div class="card">
                     <img src="../assets/img/artist-course-08-480x480.jpg" alt="">
+                    <p>$20.00</p>
+                    <h4>Lorem ipsum dolor sit.</h4>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
             </div>
-            
+            <button>View all corses</button>
         </section>
         <section class="blog">
              <img class="bg-1" src="../assets/img/maxcoach-shape-14.png" alt="">
@@ -128,14 +161,20 @@
                 </h1>
             </div>
             <div class="cover-box">
-                <div class="box-blog">
+                <div class="box-blog-s">
                     <img src="../assets/img/artist-blog-03-480x356.jpeg" alt="">
+                    <h5>lorem</h5>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
-                <div class="box-blog">
+                <div class="box-blog-l">
                     <img src="../assets/img/artist-blog-02-500x680.jpg" alt="">
                 </div>
-                <div class="box-blog">
+                <div class="box-blog-s margin">
                     <img src="../assets/img/artist-blog-01-480x356.jpg" alt="">
+                    <h5>lorem</h5>
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <span>Lorem, ipsum dolor.</span>
                 </div>
             </div>
            
@@ -151,16 +190,38 @@
 
             <div class="cover-box">
                 <div class="box-event">
-                    <img src="../assets/img/artist-event-01-250x300.jpg" alt="">
-                </div>
-                <div class="box-event">
-                    <img src="../assets/img/artist-event-02-250x300.jpg" alt="">
+                    <img src="../assets/img/artist-event-04-250x300.jpg" alt="">
+
+                    <div class="testo">
+                        <h5>lorem</h5>
+                        <h6>Lorem ipsum dolor sit.</h6>
+                         <span>lorem</span>
+                    </div>
+                    
                 </div>
                 <div class="box-event">
                     <img src="../assets/img/artist-event-03-250x300.jpg" alt="">
+                    <div class="testo">
+                        <h5>lorem</h5>
+                        <h6>Lorem ipsum dolor sit.</h6>
+                         <span>lorem</span>
+                    </div>
                 </div>
                 <div class="box-event">
-                    <img src="../assets/img/artist-event-04-250x300.jpg" alt="">
+                    <img src="../assets/img/artist-event-02-250x300.jpg" alt="">
+                    <div class="testo">
+                        <h5>lorem</h5>
+                        <h6>Lorem ipsum dolor sit.</h6>
+                         <span>lorem</span>
+                    </div>
+                </div>
+                <div class="box-event">
+                    <img src="../assets/img/artist-event-01-250x300.jpg" alt="">
+                    <div class="testo">
+                        <h5>lorem</h5>
+                        <h6>Lorem ipsum dolor sit.</h6>
+                         <span>lorem</span>
+                    </div>
                 </div>
             </div>
             
@@ -225,6 +286,9 @@ export default {
                 width: 45%;
             }
         }
+        .margin{
+            margin-top: 100px;
+        }
     }
 }
 .mentor{
@@ -238,6 +302,14 @@ export default {
         flex-direction: column;
         text-align: center;
         
+    }
+    .paragrafo{
+        .btn-mentor{
+            padding: 5px 30px;
+        }
+        p{
+            margin-bottom: 20px;
+        }
     }
     .title-mentor, .paragrafo{
         width: 27%;
@@ -291,45 +363,52 @@ export default {
 
 }
 .reviews{
-    background-color: cyan;
+    background-color: #FAF9F7;
+    padding:50px 0px;
     .cover-box{
         width: 90%;
         @include center(between);
         .box-reviews{
-            width: 20%;
-            height: 170px;
+            padding: 25px;
+            width: 30%;
+            height: 270px;
             margin: 20px;
             background-color: #fff;
             img{
-                width: 15%;
+                width: 17%;
+                border-radius: 50%;
+            }
+            p{
+                margin: 20px 0px;
             }
         }
     }
 }
 .courses{
     position: relative;
-    background-color: grey;
+    padding-bottom: 70px;
     overflow: hidden;
     .bg-1{
         
         position: absolute;
         transform:rotate(250deg) ;
-        width: 25%;
-        top: 40px;
-        right: -80px;
+        width: 28%;
+        top: 55px;
+        right: -100px;
     }
     .cover-card{
-        width: 90%;
+        width: 75%;
         @include center(between);
         flex-wrap: wrap;
         .card{
             z-index: 3;
-            width: 20%;
-            height: 170px;
-            margin: 20px;
+            width: 21%;
+            
+            margin: 30px 10px;
             background-color: #fff;
             img{
-                width: 30%;
+                width: 100%;
+                height: 200px;
             }
         }
     }
@@ -337,7 +416,7 @@ export default {
 .blog{
     position: relative;
     background-color: #F5F7FA;
-    height: 500px;
+    height: 600px;
     .bg-1{
         position: absolute;
         top: 140px;
@@ -354,16 +433,34 @@ export default {
     }
     .cover-box{
         width: 90%;
-        @include center(between);
-        .box-blog{
-            width: 20%;
-            height: 170px;
+        @include center();
+        .box-blog-s{
+            z-index: 2;
+            width: 16%;
+            height: 280px;
             margin: 20px;
             background-color: #fff;
             img{
-                width: 20%;
+                width: 100%;
+            }
+            h6, h5, span{
+                margin: 10px 30px;
             }
         }
+        .margin{
+            margin-bottom: 100px;
+        }
+        .box-blog-l{
+            z-index: 2;
+            width: 28%;
+            height: 450px;
+            margin: 20px;
+            background-color: #fff;
+            img{
+                width: 100%;
+            }
+        }
+        
     }
 }
 .events{
@@ -383,16 +480,25 @@ export default {
         right: 0px;
     }
     .cover-box{
-        width: 90%;
-        @include center(between);
+        width: 80%;
+        padding: 50px 0px;
+        @include center();
         flex-wrap: wrap;
         .box-event{
-            width: 40%;
-            height: 170px;
+            @include center(sinistra);
+            width: 30%;
+            height: 200px;
             margin: 20px;
-            background-color: #fff;
+            
             img{
-                width: 20%;
+                width: 50%;
+                height: 200px;
+            }
+            .testo{
+                margin-left: 20px;
+                h6{
+                    margin: 15px 0px;
+                }
             }
         }
     }
